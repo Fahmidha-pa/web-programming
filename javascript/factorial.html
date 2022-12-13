@@ -1,0 +1,23 @@
+<html>
+<body bgcolor="lightblue">
+<h1>Factorial Of A Number</h1>
+<script>
+function factorial(n)
+{
+var n=prompt("Enter the number:");
+var answer =1;
+if(n==0 || n==1){
+return answer;
+}
+else{
+for(var i = n; i >= 1;i--){
+answer = answer *i;
+}
+alert("Factorial of " +n+ " is="+answer);
+}
+}
+</script>
+</form>
+<input type="button" value="click here" onclick="factorial()"/>
+</body>
+</html>
